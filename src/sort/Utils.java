@@ -32,4 +32,10 @@ public class Utils {
     static void print(String s) {
         System.out.println(s);
     }
+
+    static void swap(int[] a, int i, int j) {
+        int t = a[i];
+        a[i] = a[j];
+        a[j] = t;
+    }
 }
